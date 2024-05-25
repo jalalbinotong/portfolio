@@ -16,7 +16,7 @@ export const Footer = () => {
             <div className='flex gap-1 justify-center items-center pt-1'>
                 <p className='text-center text-white text-[15px] pt-4 lg:pt-7 font-bold'>copyright</p>
                 <div className="flex items-center">
-                    <i className="fa-regular fa-copyright mt-6" style={{ color: 'white' }}></i>
+                    <i className="fa-regular fa-copyright mt-5" style={{ color: 'white' }}></i>
                 </div>
                 <p className='text-center text-white text-[15px] pt-4 lg:pt-7'>2024 Rafi Faridz</p>
             </div>

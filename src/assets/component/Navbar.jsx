@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className='bg-black/30 backdrop-blur-sm text-white uppercase fixed w-full'>
       <div className='container mx-auto flex justify-between items-center p-4'>
-        <a href='#home'>UTOMO'S WEB</a>
+        <a href='#home'>RAFI'S WEB</a>
         <div>
           <ul className='md:flex gap-10 hidden'>
             <a href='#home'>Home</a>
