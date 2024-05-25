@@ -30,10 +30,10 @@ const Navbar = () => {
       {/* mobile view */}
       {nav && 
       <ul className='flex flex-col text-center gap-10 lg:hidden mb-4' id='menu'>
-          <li>Home</li>
-          <li>About</li>
-          <li>Project</li>
-          <li>Contact</li>
+          <a href='#home'>Home</a>
+          <a href='#about'>About</a>
+          <a href='#project'>Project</a>
+          <a href='#contact'>Contact</a>
       </ul>
       }
     </nav>

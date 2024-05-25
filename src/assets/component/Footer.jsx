@@ -8,12 +8,19 @@ export const Footer = () => {
                 <div className='w-auto lg:w-2/4 p-2'>
                     <p className='text-center text-white text-[15px]'>If there are projects or job openings, let's work together. Together, let's achieve our goals and have a positive impact on our company and community.</p>
                 </div>
-                <button className='bg-slate-400 h-9  text-center rounded-lg px-8'>Let's Talk Now</button>
+                <button className='bg-slate-400 h-9  text-center rounded-lg px-8'><a href="https://mail.google.com/">Let's Talk Now</a></button>
             </div>
-            <div className='pt-4'>
+            <div className='pt-5'>
                 <hr />
-                <p className='text-center text-white text-[13px] pt-4 lg:pt-7'>@Copyright - Rafi Faridz 2024 </p>
             </div>
+            <div className='flex gap-1 justify-center items-center pt-1'>
+                <p className='text-center text-white text-[15px] pt-4 lg:pt-7 font-bold'>copyright</p>
+                <div className="flex items-center">
+                    <i className="fa-regular fa-copyright mt-6" style={{ color: 'white' }}></i>
+                </div>
+                <p className='text-center text-white text-[15px] pt-4 lg:pt-7'>2024 Rafi Faridz</p>
+            </div>
+
         </div>
     </div>
   )
