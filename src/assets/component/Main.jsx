@@ -37,7 +37,15 @@ export const Main = () => {
               animate={isInView ? { opacity: 1, x: 0 } : {}}
               transition={{ delay: 1.5, duration: 0.5 }}
             >
-              I am a 6th semester Software Engineering Technology student from Politeknik Negeri Bali with professional experience in Backend Developer and System Analyst.
+              I am a 6th semester Software Engineering Technology student from Politeknik Negeri Bali with professional experience in Website Developer and System Analyst.
+            </motion.p>
+            <motion.p
+              className='lg:w-4/6 font-normal'
+              initial={{ opacity: 0, x: -50 }}
+              animate={isInView ? { opacity: 1, x: 0 } : {}}
+              transition={{ delay: 1.5, duration: 0.5 }}
+            >
+              I am a graduate of the Independent Study Program Batch 6 of the Kampus Merdeka initiative at PT Amanah Karya Indonesia.
             </motion.p>
             <motion.p
               className='lg:w-4/6 font-normal'

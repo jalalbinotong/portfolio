@@ -28,10 +28,40 @@ export const Project = () => {
                 transition={{ duration: 0.8 }}
               >
                 <a href="">
-                  <img className='lg:min-w-full' src="https://source.unsplash.com/random/400x300?web-developer" alt="" />
+                  <img className='lg:min-w-full' src="https://img.freepik.com/free-photo/desk-flat-lay-with-tablet_52683-86163.jpg?ga=GA1.1.1704216411.1716215800&semt=sph" alt="" />
                   <div className='p-6 gap-4 flex flex-col'>
                     <h2 className='text-lg font-medium'>Portfolio Website</h2>
-                    <p>As you can see, the website is very simple, I just made it using Reactjs with Tailwind.</p>
+                    <p>As you can see, the website is very simple, I just made it using Reactjs with Tailwind CSS.</p>
+                  </div>
+                </a>
+              </motion.div>
+              <motion.div
+                className='card max-w-md shadow-lg mb-5'
+                initial={{ opacity: 0, scale: 0.5, rotate: -10 }}
+                animate={{ opacity: 1, scale: 1, rotate: 0 }}
+                whileHover={{ scale: 1.05, rotate: 0, boxShadow: '0px 10px 20px rgba(0,0,0,0.2)' }}
+                transition={{ duration: 0.8, delay: 0.4 }}
+              >
+                <a href="https://github.com/jalalbinotong/mini-project">
+                  <img className='lg:min-w-full' src="https://img.freepik.com/free-photo/side-shot-code-editor-using-react-js_181624-61842.jpg?ga=GA1.1.1704216411.1716215800&semt=sph" alt="" />
+                  <div className='p-6 gap-4 flex flex-col'>
+                    <h2 className='text-lg font-medium'>Mini Project</h2>
+                    <p>This project is an individual project for participants of the Independent Study Program Batch 6 of the Kampus Merdeka initiative at PT Amanah Karya Indonesia. This mini project involved creating a social media website using the Laravel 10 framework and Bootstrap 5.</p>
+                  </div>
+                </a>
+              </motion.div>
+              <motion.div
+                className='card max-w-md shadow-lg mb-5'
+                initial={{ opacity: 0, scale: 0.5, rotate: -10 }}
+                animate={{ opacity: 1, scale: 1, rotate: 0 }}
+                whileHover={{ scale: 1.05, rotate: 0, boxShadow: '0px 10px 20px rgba(0,0,0,0.2)' }}
+                transition={{ duration: 0.8, delay: 0.4 }}
+              >
+                <a href="https://github.com/jalalbinotong/Final_Project">
+                  <img className='lg:min-w-full' src="https://img.freepik.com/free-photo/workplace-violence-taking-place-colleagues_23-2149361846.jpg?ga=GA1.1.1704216411.1716215800&semt=sph" alt="" />
+                  <div className='p-6 gap-4 flex flex-col'>
+                    <h2 className='text-lg font-medium'>Final Project</h2>
+                    <p>This final project is a team project for participants of the Independent Study Program Batch 6 of the Kampus Merdeka initiative at PT Amanah Karya Indonesia. My role in the team is as a Back-End Developer. This final project involved creating an 'Online Student Report' Website using the Laravel 10 framework and Bootstrap 5.</p>
                   </div>
                 </a>
               </motion.div>
@@ -43,10 +73,10 @@ export const Project = () => {
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
                 <a href="https://github.com/jalalbinotong/SIRENMO">
-                  <img className='lg:min-w-full' src="https://source.unsplash.com/random/400x300?coding" alt="" />
+                  <img className='lg:min-w-full' src="https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?ga=GA1.1.1704216411.1716215800&semt=sph" alt="" />
                   <div className='p-6 gap-4 flex flex-col'>
                     <h2 className='text-lg font-medium'>Rent Car Website</h2>
-                    <p>The project you are referring to is my 5th semester final project, I made it using laravel with tailwind.</p>
+                    <p>This final project is a team project from the 5th semester. My role in this project was System Analyst and Back-End Developer. This final project called 'SIRENMO' (Sistem Rental Mobil), was created using Laravel 8 and Tailwind CSS.</p>
                   </div>
                 </a>
               </motion.div>
@@ -58,13 +88,14 @@ export const Project = () => {
                 transition={{ duration: 0.8, delay: 0.4 }}
               >
                 <a href="https://simlsp2.lab-trpl.id/cmain/tampilberanda">
-                  <img className='lg:min-w-full' src="https://source.unsplash.com/random/400x300?hacker" alt="" />
+                  <img className='lg:min-w-full' src="https://img.freepik.com/free-photo/turned-gray-laptop-computer_400718-47.jpg?ga=GA1.1.1704216411.1716215800&semt=sph" alt="" />
                   <div className='p-6 gap-4 flex flex-col'>
                     <h2 className='text-lg font-medium'>Project Based Learning</h2>
-                    <p>This is my Project Based Learning with a real case called SIM LSP (Professional Certification Institute System), I made it using CodeIgniter with Bootstrap 5.</p>
+                    <p>This is a Project Based Learning project completed in the 4th semester by a team, involving a real case called SIM LSP (Professional Certification Institute System). This project was created using the CodeIgniter 3 and Bootstrap 5.</p>
                   </div>
                 </a>
               </motion.div>
+              
             </>
           )}
         </div>
