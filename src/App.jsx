@@ -14,6 +14,7 @@ function App() {
   return (
     <div className=''>
       <Header/>
+      <Navbar/>
       <Main/>
       <Project/>
       <Contact/>
