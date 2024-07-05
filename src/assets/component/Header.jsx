@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const Header = () => {
   const [name] = useState("Hi! it's Rafi Faridz")
-  const [desc] = useState("I'm a junior web dev, ya know? Sometimes coding's like, cool vibes, but other times, it's like, nah, not feelin' it.")
+  const [desc] = useState("I am a junior web developer. Sometimes, coding is enjoyable and exciting, but other times, it can be quite challenging and less appealing.")
   
   return (
     <div style={{ backgroundImage: "url('./img/hero.png')" }} id='home' className='w-screen h-screen'>

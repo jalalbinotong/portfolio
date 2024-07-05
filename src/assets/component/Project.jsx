@@ -31,7 +31,7 @@ export const Project = () => {
                   <img className='lg:min-w-full' src="https://img.freepik.com/free-photo/desk-flat-lay-with-tablet_52683-86163.jpg?ga=GA1.1.1704216411.1716215800&semt=sph" alt="" />
                   <div className='p-6 gap-4 flex flex-col'>
                     <h2 className='text-lg font-medium'>Portfolio Website</h2>
-                    <p>As you can see, the website is very simple, I just made it using Reactjs with Tailwind CSS.</p>
+                    <p>As you can see, this website is very simple, I just made it using Reactjs with Tailwind CSS.</p>
                   </div>
                 </a>
               </motion.div>
@@ -45,8 +45,8 @@ export const Project = () => {
                 <a href="https://github.com/jalalbinotong/mini-project">
                   <img className='lg:min-w-full' src="https://img.freepik.com/free-photo/side-shot-code-editor-using-react-js_181624-61842.jpg?ga=GA1.1.1704216411.1716215800&semt=sph" alt="" />
                   <div className='p-6 gap-4 flex flex-col'>
-                    <h2 className='text-lg font-medium'>Mini Project</h2>
-                    <p>This project is an individual project for participants of the Independent Study Program Batch 6 of the Kampus Merdeka initiative at PT Amanah Karya Indonesia. This mini project involved creating a social media website using the Laravel 10 framework and Bootstrap 5.</p>
+                    <h2 className='text-lg font-medium'>Social Media Website</h2>
+                    <p>This is an individual Mini Project for participants of the Independent Study Program Batch 6 of the Kampus Merdeka initiative at PT Amanah Karya Indonesia. This mini project was created using the Laravel 10 framework and Bootstrap 5.</p>
                   </div>
                 </a>
               </motion.div>
@@ -60,8 +60,8 @@ export const Project = () => {
                 <a href="https://github.com/jalalbinotong/Final_Project">
                   <img className='lg:min-w-full' src="https://img.freepik.com/free-photo/workplace-violence-taking-place-colleagues_23-2149361846.jpg?ga=GA1.1.1704216411.1716215800&semt=sph" alt="" />
                   <div className='p-6 gap-4 flex flex-col'>
-                    <h2 className='text-lg font-medium'>Final Project</h2>
-                    <p>This final project is a team project for participants of the Independent Study Program Batch 6 of the Kampus Merdeka initiative at PT Amanah Karya Indonesia. My role in the team is as a Back-End Developer. This final project involved creating an 'Online Student Report' Website using the Laravel 10 framework and Bootstrap 5.</p>
+                    <h2 className='text-lg font-medium'>Online Student Report</h2>
+                    <p>This final project is a team project for participants of the Independent Study Program Batch 6 of the Kampus Merdeka initiative at PT Amanah Karya Indonesia. My role in the team is as a Back-End Developer. This final project was created using the Laravel 10 framework and Bootstrap 5.</p>
                   </div>
                 </a>
               </motion.div>
@@ -91,7 +91,7 @@ export const Project = () => {
                   <img className='lg:min-w-full' src="https://img.freepik.com/free-photo/turned-gray-laptop-computer_400718-47.jpg?ga=GA1.1.1704216411.1716215800&semt=sph" alt="" />
                   <div className='p-6 gap-4 flex flex-col'>
                     <h2 className='text-lg font-medium'>Project Based Learning</h2>
-                    <p>This is a Project Based Learning project completed in the 4th semester by a team, involving a real case called SIM LSP (Professional Certification Institute System). This project was created using the CodeIgniter 3 and Bootstrap 5.</p>
+                    <p>This is a Project Based Learning completed in the 4th semester by a team, involving a real case called SIM LSP (Professional Certification Institute System). This project was created using the CodeIgniter 3 and Bootstrap 5.</p>
                   </div>
                 </a>
               </motion.div>

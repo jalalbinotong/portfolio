@@ -38,8 +38,8 @@ export const Contact = () => {
                   whileHover={{ scale: 1.1, backgroundColor: '#A3E635' }}
                 >
                   <div className='flex gap-3 justify-center items-center'>
-                    <i className="fa-brands fa-instagram fa-xl"></i>
-                    <a href="https://www.instagram.com/rafifaridz_/">rafifaridz_</a>
+                    <i className="fa-brands fa-linkedin fa-xl"></i>
+                    <a href="https://www.linkedin.com/in/rafi-faridz-utomo/">rafi-faridz-utomo</a>
                   </div>
                 </motion.button>
                 <motion.button
@@ -50,8 +50,8 @@ export const Contact = () => {
                   whileHover={{ scale: 1.1, backgroundColor: '#A3E635' }}
                 >
                   <div className='flex gap-3 justify-center items-center'>
-                    <i className="fa-brands fa-linkedin fa-xl"></i>
-                    <a href="https://www.linkedin.com/in/rafi-faridz-233595298/">rafi-faridz</a>
+                    <i className="fa-brands fa-instagram fa-xl"></i>
+                    <a href="https://www.instagram.com/rafifaridz_/">rafifaridz_</a>
                   </div>
                 </motion.button>
                 <motion.button

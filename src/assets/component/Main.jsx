@@ -37,7 +37,7 @@ export const Main = () => {
               animate={isInView ? { opacity: 1, x: 0 } : {}}
               transition={{ delay: 1.5, duration: 0.5 }}
             >
-              I am a 6th semester Software Engineering Technology student from Politeknik Negeri Bali with professional experience in Website Developer and System Analyst.
+              I am a 6th-semester Software Engineering Technology student at Politeknik Negeri Bali, with professional experience as a Website Developer.
             </motion.p>
             <motion.p
               className='lg:w-4/6 font-normal'
@@ -53,7 +53,7 @@ export const Main = () => {
               animate={isInView ? { opacity: 1, x: 0 } : {}}
               transition={{ delay: 2, duration: 0.5 }}
             >
-              One more fact about me is that I love gym, because good body is life like larry😅
+              One more fact about me is that I love going to the gym because maintaining a good physique is important to me 😎
             </motion.p>
             <motion.button
               className='bg-lime-900 text-slate-300 w-20 font-medium h-10 rounded-lg'
