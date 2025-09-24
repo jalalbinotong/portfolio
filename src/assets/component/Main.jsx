@@ -37,8 +37,8 @@ export const Main = () => {
               animate={isInView ? { opacity: 1, x: 0 } : {}}
               transition={{ delay: 1.5, duration: 0.5 }}
             >
-              I am a 6th-semester Software Engineering Technology student at Politeknik Negeri Bali, with professional experience as a Website Developer.
-            </motion.p>
+             I am a recent graduate of Software Engineering Technology from Politeknik Negeri Bali, with professional experience as a Website Developer.
+            </motion.p> 
             <motion.p
               className='lg:w-4/6 font-normal'
               initial={{ opacity: 0, x: -50 }}

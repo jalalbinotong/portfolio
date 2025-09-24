@@ -15,7 +15,7 @@ export const Footer = () => {
             </div>
             <div className='flex gap-1 justify-center items-center pt-1'>
                 <p className='text-center text-white text-[15px] pt-4 lg:pt-7 font-bold'>copyright</p>
-                <p className='text-center text-white text-[15px] pt-4 lg:pt-7'>© 2024 Rafi Faridz</p>
+                <p className='text-center text-white text-[15px] pt-4 lg:pt-7'>© {new Date().getFullYear()} Rafi Faridz</p>
             </div>
 
         </div>

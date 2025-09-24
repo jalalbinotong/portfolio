@@ -40,6 +40,21 @@ export const Project = () => {
                 initial={{ opacity: 0, scale: 0.5, rotate: -10 }}
                 animate={{ opacity: 1, scale: 1, rotate: 0 }}
                 whileHover={{ scale: 1.05, rotate: 0, boxShadow: '0px 10px 20px rgba(0,0,0,0.2)' }}
+                transition={{ duration: 0.8 }}
+              >
+                <a href="https://github.com/jalalbinotong/siperang">
+                  <img className='lg:min-w-full' src="https://img.freepik.com/free-photo/desk-flat-lay-with-tablet_52683-86163.jpg?ga=GA1.1.1704216411.1716215800&semt=sph" alt="" />
+                  <div className='p-6 gap-4 flex flex-col'>
+                    <h2 className='text-lg font-medium'>Final Project</h2>
+                    <p>In my thesis project, I developed a web-based inventory and borrowing system for Politeknik Negeri Bali by applying the Waterfall SDLC methodology, utilizing Laravel 11 and Bootstrap 5, and focusing on back-end development and system functionality.</p>
+                  </div>
+                </a>
+              </motion.div>
+              <motion.div
+                className='card max-w-md shadow-lg mb-5'
+                initial={{ opacity: 0, scale: 0.5, rotate: -10 }}
+                animate={{ opacity: 1, scale: 1, rotate: 0 }}
+                whileHover={{ scale: 1.05, rotate: 0, boxShadow: '0px 10px 20px rgba(0,0,0,0.2)' }}
                 transition={{ duration: 0.8, delay: 0.4 }}
               >
                 <a href="https://github.com/jalalbinotong/mini-project">
